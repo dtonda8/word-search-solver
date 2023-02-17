@@ -1,0 +1,37 @@
+#home { 
+    width: 90%;
+    max-width: 750px;
+    text-align: left;
+}   
+
+.step {
+    border: 1px solid rgb(158, 158, 158);
+    border-radius: 4px;
+    margin-top: 3px;
+}
+
+#grid {
+    display: inline-grid;
+    border-bottom: 1px solid rgb(158, 158, 158);
+    border-left: 1px solid rgb(158, 158, 158);
+}
+
+#grid > input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(158, 158, 158);
+    border-right: 1px solid rgb(158, 158, 158);
+}
+
+.delete-btns > button{
+    width: 40px;
+    height: 40px;
+}
+
+#grid-container {
+    display: flex;
+}
