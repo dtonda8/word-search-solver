@@ -1,0 +1,19 @@
+.grid {
+    display: inline-grid;
+    border-bottom: 1px solid rgb(158, 158, 158);
+    border-left: 1px solid rgb(158, 158, 158);
+}
+
+.grid > div {
+    height: 30px;
+    width: 30px;
+    border-top: 1px solid rgb(158, 158, 158);
+    border-right: 1px solid rgb(158, 158, 158);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.highlight {
+    background-color: rgb(140, 255, 140);
+}
